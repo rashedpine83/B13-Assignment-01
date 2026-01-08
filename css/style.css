@@ -3,3 +3,65 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: #469165;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.access-btn{
+    padding: 8px 12px;
+    background-color: white;
+    border: none;
+    color: #469165;
+    font-weight: 500;
+    border-radius: 1000px;
+    font-size: 16px;
+    margin-bottom: 116px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+nav .menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu li{
+    list-style: none;
+}
+nav .menu a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+#banar{
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+}
+.banar-container{
+    text-align: center;
+    padding: 157px 120px 221px 120px;
+}
+.banar-container .banar-content p{
+    color: white;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+/* #banar .banar-container .nav-btn{
+    display: flex;
+    justify-self: start;
+} */
