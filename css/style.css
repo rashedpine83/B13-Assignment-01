@@ -54,6 +54,7 @@ nav .menu a{
 .banar-container{
     text-align: center;
     padding: 157px 120px 221px 120px;
+    max-width: 1360px;
 }
 .banar-container .banar-content p{
     color: white;
@@ -61,7 +62,87 @@ nav .menu a{
     font-size: 18px;
     margin-bottom: 32px;
 }
-/* #banar .banar-container .nav-btn{
+#banar .banar-container .button-play{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+}
+.note-container{
     display: flex;
-    justify-self: start;
-} */
+    justify-content: center;
+    max-width: 1360px;
+    gap: 16px;
+    margin: 0 94px;
+}
+#note{
+    text-align: center;
+}
+.note-container .note-card img{
+    background: #F95555;
+    border: 15px solid #F95555;
+    border-radius: 50%;
+    margin-top: 46px;
+}   
+#note .section-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+#note .section-heading p{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.note-container .note-card{
+    border: 1px solid red;
+    padding: 20px; 
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);   
+}
+.note-container .note-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px 0;
+    
+}
+.note-container .note-card p{
+    line-height: 20px;
+    color: #627382; 
+}
+.brain-container{
+    display: flex;
+    gap: 60px;
+    padding: 120px 94px;
+}
+.brain-container .brain-content h6{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+.brain-container .brain-content h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.brain-container .brain-content p{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.brain-container .brain-content ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.brain-container .brain-content ul li img{
+    margin-right: 6px;
+}
+
+
+
+
+
