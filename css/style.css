@@ -17,6 +17,10 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.9s;
+}
+.btn:hover{
+    background: linear-gradient(#34495e, #8e44ad);
 }
 .access-btn{
     padding: 8px 12px;
@@ -27,12 +31,18 @@
     border-radius: 1000px;
     font-size: 16px;
     margin-bottom: 116px;
+    transition: 0.9s;
 }
-
+.access-btn:hover{
+    background: linear-gradient(#34495e, #8e44ad);
+    color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 16px 120px;
+    padding: 16px 0;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 nav .menu{
     display: flex;
@@ -46,15 +56,25 @@ nav .menu a{
     text-decoration: none;
     font-weight: 500;
     color: black;
+    padding: 5px 8px;
+}
+nav .menu a:hover{
+    background-color: #F95555;
+    padding: 5px 8px;
 }
 #banar{
-    background-image: url(../images/hero-bg.png);
-    background-position: center;
+    background: linear-gradient(rgba(211, 131, 18, 0.3), rgba(168, 50, 121, 0.3)), url(../images/hero-bg.png ) no-repeat center;
 }
 .banar-container{
     text-align: center;
     padding: 157px 120px 221px 120px;
     max-width: 1360px;
+    margin: 0 auto;
+}
+.banar-container .nav-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 .banar-container .banar-content p{
     color: white;
@@ -70,9 +90,13 @@ nav .menu a{
 .note-container{
     display: flex;
     justify-content: center;
-    max-width: 1360px;
+    max-width: 1600px;
     gap: 16px;
-    margin: 0 94px;
+    margin: 0 auto;
+}
+.note-container .note-card{
+    max-width: 322px;
+    max-height: 300px;
 }
 #note{
     text-align: center;
@@ -96,7 +120,6 @@ nav .menu a{
     margin-bottom: 44px;
 }
 .note-container .note-card{
-    border: 1px solid red;
     padding: 20px; 
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);   
 }
@@ -111,10 +134,23 @@ nav .menu a{
     line-height: 20px;
     color: #627382; 
 }
+
 .brain-container{
+  margin: 0 auto;
+  padding: 120px;    
+}
+.brain-container .brain-image img{
+    max-width: 600px;
+}
+.brain-container .brain-content{
+    width: 700px;
+}
+.brain-container .section-container{
     display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
     gap: 60px;
-    padding: 120px 94px;
+    margin: 0 auto;
 }
 .brain-container .brain-content h6{
     color: #469165;
@@ -145,9 +181,11 @@ nav .menu a{
 }
 .access-container{
     background-color: #F7F6F2;
-    max-width: 1630px;
+    max-width: 1360px;
     text-align: center;
-    padding: 80px 0;  
+    padding: 80px 0;
+    margin: 0 auto; 
+    margin-bottom: 120px; 
 }
 .access-container .access-content{
     max-width: 1280px;
@@ -168,6 +206,49 @@ nav .menu a{
 }
 .access-container .access-content para-two p{
     padding-bottom: 80px;
+}
+.footer-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 120px 0 120px;
+    background-color: #001931;
+}
+.footer-container .footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin-top: 80px;
+}
+.footer-container .copyright{
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+.footer-container .social-area p{
+    color: white;
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: 500;
+}
+/* .fa-brands fa-x-twitter{
+    background-color: white;
+    border: 8px solid white;
+} */
+.social-link{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+.social-logo{
+    display: flex;
+    gap: 16px;
+}
+.line{
+    border-top: 1px solid rgba(234, 229, 235, 0.2);
+    margin-top: 80px;
 }
 
 
