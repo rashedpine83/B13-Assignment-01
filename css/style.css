@@ -172,6 +172,7 @@ nav .menu a:hover{
 .brain-container .section-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1360px;
     gap: 60px;
     margin: 0 auto;
