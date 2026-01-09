@@ -18,7 +18,12 @@
     cursor: pointer;
     font-size: 16px;
     transition: 0.9s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
 }
+
 .btn:hover{
     background: linear-gradient(#34495e, #8e44ad);
 }
@@ -30,8 +35,14 @@
     font-weight: 500;
     border-radius: 1000px;
     font-size: 16px;
-    margin-bottom: 116px;
+    margin: 0 auto;
+    margin-bottom: 16px;
     transition: 0.9s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
 }
 .access-btn:hover{
     background: linear-gradient(#34495e, #8e44ad);
@@ -48,6 +59,7 @@ nav .menu{
     display: flex;
     gap: 32px;
     align-items: center;
+    
 }
 nav .menu li{
     list-style: none;
@@ -62,24 +74,36 @@ nav .menu a:hover{
     background-color: #F95555;
     padding: 5px 8px;
 }
-#banar{
-    background: linear-gradient(rgba(211, 131, 18, 0.3), rgba(168, 50, 121, 0.3)), url(../images/hero-bg.png ) no-repeat center;
-}
 .banar-container{
+    background: linear-gradient(rgba(211, 131, 18, 0.3), rgba(168, 50, 121, 0.3)), url(../images/hero-bg.png ) no-repeat center;
     text-align: center;
     padding: 157px 120px 221px 120px;
-    max-width: 1360px;
+    max-width: 1600px;
     margin: 0 auto;
+    max-height: 674px;
 }
 .banar-container .nav-btn{
     display: flex;
     justify-content: center;
     gap: 16px;
 }
+.banar-container .banar-content .heading-frist{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+.banar-container .banar-content .heading-second{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;  
+}
 .banar-container .banar-content p{
     color: white;
     line-height: 24px;
     font-size: 18px;
+    margin-top: 16px;
     margin-bottom: 32px;
 }
 #banar .banar-container .button-play{
@@ -137,7 +161,7 @@ nav .menu a:hover{
 
 .brain-container{
   margin: 0 auto;
-  padding: 120px;    
+  padding: 80px;    
 }
 .brain-container .brain-image img{
     max-width: 600px;
@@ -202,7 +226,9 @@ nav .menu a:hover{
     padding-bottom: 24px;
 }
 .access-container .access-content button{
+    margin: 0 auto;
     margin-bottom: 16px;
+    
 }
 .access-container .access-content para-two p{
     padding-bottom: 80px;
