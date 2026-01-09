@@ -136,12 +136,39 @@ nav .menu a{
 }
 .brain-container .brain-content ul li{
     list-style: none;
-    margin-bottom: 16px;
+    color: #001931;
+    line-height: 20px;
+    padding-bottom: 16px;
 }
 .brain-container .brain-content ul li img{
     margin-right: 6px;
 }
-
+.access-container{
+    background-color: #F7F6F2;
+    max-width: 1630px;
+    text-align: center;
+    padding: 80px 0;  
+}
+.access-container .access-content{
+    max-width: 1280px;
+}
+.access-container .access-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.access-container .access-content p{
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+.access-container .access-content button{
+    margin-bottom: 16px;
+}
+.access-container .access-content para-two p{
+    padding-bottom: 80px;
+}
 
 
 
